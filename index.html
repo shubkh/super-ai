@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta name="description" content="Super AI Base helps local businesses become easier to discover in AI-powered search. Improve your presence across ChatGPT, Google, and the next generation of local discovery.">
+  <meta property="og:title" content="Super AI Base — Get found in the age of AI">
+  <meta property="og:description" content="A practical AI visibility system for local businesses. Show up when nearby customers ask AI who to trust.">
+  <meta property="og:type" content="website">
+  <title>Super AI Base — Get found in the age of AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#111318;--muted:#656b76;--line:#e7e9ee;--paper:#f7f8fa;--white:#fff;--violet:#6557f5;--violet2:#8b80ff;--mint:#c8f5df;--dark:#171820;--radius:22px;--shadow:0 24px 80px rgba(28,31,45,.09)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button,input,select{font:inherit}button,a,input,select{outline-offset:4px}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #938aff}::selection{background:#dcd8ff}
+    .wrap{width:min(1160px,calc(100% - 48px));margin:auto}.announcement{display:flex;align-items:center;justify-content:center;gap:10px;padding:9px 16px;background:#171820;color:#e9e9ef;font-size:12px;letter-spacing:.02em}.announcement .dot{width:6px;height:6px;background:#9ef0c7;border-radius:50%;box-shadow:0 0 0 4px #9ef0c71a}
+    header{position:sticky;top:0;z-index:20;background:rgba(247,248,250,.86);backdrop-filter:blur(18px);border-bottom:1px solid #e7e9eea8}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:inline-flex;align-items:center;gap:10px;font-family:Manrope,sans-serif;font-weight:800;font-size:18px;letter-spacing:-.055em;white-space:nowrap}.brandmark{width:30px;height:30px;display:grid;place-items:center;background:var(--violet);color:#fff;border-radius:10px;font-size:16px;letter-spacing:-.08em;box-shadow:0 5px 14px #6557f533}.navlinks{display:flex;align-items:center;gap:30px;font-size:13px;color:#555b66}.navlinks a:hover{color:var(--violet)}.navactions{display:flex;align-items:center;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:11px;padding:12px 17px;font-size:13px;font-weight:700;cursor:pointer;transition:transform .2s,background .2s,border-color .2s;white-space:nowrap}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--violet);color:white;box-shadow:0 8px 22px #6557f52b}.btn-primary:hover{background:#5144e7}.btn-light{background:white;border-color:var(--line);color:var(--ink)}.btn-light:hover{border-color:#c7c4f8}.btn-dark{background:#191a22;color:#fff}.menu-toggle{display:none;border:1px solid var(--line);background:#fff;border-radius:10px;width:42px;height:42px;cursor:pointer}
+    .hero{position:relative;overflow:hidden;padding:91px 0 70px}.hero:before{content:"";position:absolute;width:640px;height:640px;top:-240px;right:-140px;background:radial-gradient(circle,#dcd8ff 0,rgba(220,216,255,.34) 35%,transparent 70%);pointer-events:none}.hero-grid{position:relative;display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:46px}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #e3e2ef;background:#ffffffb8;padding:7px 11px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#5148c7}.eyebrow .spark{font-size:14px}.hero h1{font-family:Manrope,sans-serif;font-size:clamp(44px,5.5vw,70px);line-height:1.03;letter-spacing:-.075em;margin:24px 0 22px;max-width:650px;font-weight:700}.gradient{background:linear-gradient(105deg,#6657f5 5%,#9c6cf2 56%,#e09bce 100%);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-copy{max-width:510px;color:#666c77;font-size:17px;line-height:1.75}.hero-buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.microproof{display:flex;align-items:center;gap:12px;margin-top:25px;color:#777d87;font-size:11px}.avatars{display:flex;padding-left:4px}.avatar{display:grid;place-items:center;width:25px;height:25px;border:2px solid var(--paper);border-radius:50%;margin-left:-5px;background:#e5e0ff;color:#5147be;font-size:9px;font-weight:800}.avatar:nth-child(2){background:#d6f4e4;color:#26754f}.avatar:nth-child(3){background:#ffe7d8;color:#a6572d}.avatar:nth-child(4){background:#e4e8f4;color:#425277}
+    .demo-wrap{position:relative;min-width:0}.glow{position:absolute;inset:12% -4% -5% 4%;background:linear-gradient(135deg,#cfcaff,#e4f8ed);filter:blur(42px);opacity:.7;border-radius:50%}.dashboard{position:relative;background:#fff;border:1px solid #e8e9ef;border-radius:21px;box-shadow:0 30px 90px rgba(37,34,77,.13);overflow:hidden;transform:rotate(.8deg);animation:floatin .8s ease both}.dash-top{padding:17px 20px;border-bottom:1px solid #ececf1;display:flex;justify-content:space-between;align-items:center}.dash-brand{font-weight:800;font-size:12px;letter-spacing:-.03em;display:flex;align-items:center;gap:8px}.tiny-mark{width:20px;height:20px;border-radius:6px;background:var(--violet);color:#fff;display:grid;place-items:center;font-size:10px}.live{font-size:10px;color:#268657;background:#e9f9f0;padding:5px 8px;border-radius:99px;font-weight:700}.dash-body{padding:22px}.dash-heading{font-size:11px;color:#858a95;margin-bottom:4px}.business-title{font-family:Manrope,sans-serif;font-size:21px;font-weight:800;letter-spacing:-.05em}.business-sub{font-size:11px;color:#858a95;margin-top:3px}.score-card{margin-top:20px;background:#f8f8fc;border:1px solid #ececf4;border-radius:14px;padding:16px;display:flex;align-items:center;gap:16px}.score-ring{width:76px;height:76px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--violet) 0 82%,#e7e6f7 82%);position:relative;flex-shrink:0}.score-ring:before{content:"";position:absolute;inset:6px;background:#f8f8fc;border-radius:50%}.score-ring span{position:relative;font-family:Manrope;font-weight:800;font-size:21px;letter-spacing:-.06em}.score-label{font-size:12px;font-weight:800}.score-desc{font-size:10px;color:#777d88;margin-top:4px}.delta{display:inline-flex;margin-top:8px;color:#258354;font-size:10px;font-weight:700}.mention-title{display:flex;justify-content:space-between;align-items:center;margin:22px 0 10px;font-size:11px;font-weight:800}.mention-title span:last-child{font-size:10px;font-weight:500;color:#8a8f99}.mention{display:flex;align-items:center;gap:10px;border:1px solid #ededef;border-radius:11px;padding:11px;margin-top:8px}.source-icon{width:28px;height:28px;display:grid;place-items:center;border-radius:8px;background:#f1efff;color:#6657f5;font-size:12px;font-weight:800}.mention:nth-of-type(3) .source-icon{background:#e8f8ef;color:#278657}.mention-text{min-width:0;flex:1}.mention-name{font-size:11px;font-weight:800}.mention-desc{font-size:9px;color:#858a95;margin-top:2px}.status{font-size:9px;font-weight:700;color:#278657;background:#eaf9f0;padding:5px 7px;border-radius:99px}.dash-bottom{display:flex;align-items:center;justify-content:space-between;padding:13px 20px;background:#fafafd;border-top:1px solid #eeeef3;color:#858a95;font-size:9px}.dash-bottom strong{color:#5f55d7}.floating-note{position:absolute;bottom:26px;left:-27px;background:#fff;border:1px solid #ececf1;box-shadow:var(--shadow);padding:12px 15px;border-radius:13px;display:flex;align-items:center;gap:10px;animation:float 5s ease-in-out infinite}.note-icon{width:29px;height:29px;display:grid;place-items:center;background:#e5f8ee;color:#238452;border-radius:9px;font-weight:900}.note-title{font-size:11px;font-weight:800}.note-sub{font-size:9px;color:#888d97}
+    .trustline{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0}.trust-inner{display:flex;align-items:center;justify-content:space-between;gap:24px}.trust-copy{font-size:11px;color:#818691;max-width:180px}.trust-words{display:flex;align-items:center;gap:clamp(16px,4vw,54px);color:#8b8f98;font-family:Manrope,sans-serif;font-weight:800;font-size:14px;letter-spacing:-.04em;flex-wrap:wrap}.trust-words span{display:flex;align-items:center;gap:7px}.trust-words b{font-size:18px;color:#a0a3ac}
+    section{padding:100px 0}.section-kicker{font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:var(--violet);margin-bottom:15px}.section-head{max-width:690px;margin-bottom:46px}.section-head h2{font-family:Manrope,sans-serif;font-size:clamp(32px,4vw,49px);line-height:1.12;letter-spacing:-.065em;margin:0 0 17px}.section-head p{color:var(--muted);font-size:15px;max-width:560px;line-height:1.8;margin:0}.benefits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.benefit{padding:26px 25px 28px;background:#fff;border:1px solid var(--line);border-radius:17px;min-height:222px;transition:transform .25s,box-shadow .25s}.benefit:hover{transform:translateY(-5px);box-shadow:0 18px 45px #1e21400b}.benefit-icon{width:43px;height:43px;border-radius:13px;background:#f0eeff;color:var(--violet);display:grid;place-items:center;font-size:20px;margin-bottom:23px}.benefit:nth-child(2) .benefit-icon{background:#e9f9f0;color:#2b8b5a}.benefit:nth-child(3) .benefit-icon{background:#fff0e8;color:#b9663e}.benefit h3{font-family:Manrope,sans-serif;font-size:17px;letter-spacing:-.04em;margin:0 0 9px}.benefit p{font-size:13px;line-height:1.75;color:#747a85;margin:0}
+    .how{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.how-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:start}.how .section-head{position:sticky;top:115px;margin-bottom:0}.steps{border-top:1px solid var(--line)}.step{display:grid;grid-template-columns:48px 1fr;gap:20px;padding:26px 0;border-bottom:1px solid var(--line)}.step-num{width:39px;height:39px;display:grid;place-items:center;border-radius:12px;background:#f0eeff;color:var(--violet);font-weight:800;font-size:12px}.step h3{font-family:Manrope,sans-serif;letter-spacing:-.04em;font-size:17px;margin:3px 0 8px}.step p{margin:0;color:var(--muted);font-size:13px;line-height:1.8;max-width:520px}.step-tag{display:inline-block;margin-top:12px;color:#6055dc;background:#f2f0ff;border-radius:6px;padding:5px 8px;font-size:10px;font-weight:700}
+    .who-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.who-card{padding:25px;background:#fff;border:1px solid var(--line);border-radius:16px;display:flex;gap:16px;align-items:flex-start}.who-icon{width:42px;height:42px;flex-shrink:0;border-radius:12px;display:grid;place-items:center;background:#f0eeff;font-size:19px}.who-card h3{margin:0 0 6px;font-family:Manrope,sans-serif;font-size:15px;letter-spacing:-.03em}.who-card p{margin:0;color:var(--muted);font-size:12px;line-height:1.7}
+    .cta-section{padding:30px 0 100px}.cta-panel{position:relative;overflow:hidden;background:#191a22;color:#fff;border-radius:25px;padding:60px;display:grid;grid-template-columns:1fr .75fr;gap:40px;align-items:center}.cta-panel:before{content:"";position:absolute;width:430px;height:430px;right:-80px;top:-250px;background:radial-gradient(circle,#6d5cf8 0,transparent 70%);opacity:.6}.cta-content,.audit-card{position:relative}.cta-panel h2{font-family:Manrope,sans-serif;font-size:clamp(33px,4vw,47px);line-height:1.1;letter-spacing:-.065em;margin:0 0 17px;max-width:510px}.cta-panel p{color:#b7b8c2;font-size:14px;line-height:1.8;max-width:440px;margin:0 0 24px}.cta-points{display:flex;flex-wrap:wrap;gap:14px;font-size:11px;color:#d1d2da}.cta-points span:before{content:"✓";color:#9ef0c7;margin-right:6px}.audit-card{background:#fff;color:var(--ink);padding:23px;border-radius:17px;box-shadow:0 18px 60px #0002}.audit-card h3{font-family:Manrope,sans-serif;letter-spacing:-.04em;font-size:18px;margin:0 0 5px}.audit-card>p{font-size:11px;color:#858a95;margin:0 0 19px}.field{margin-top:12px}.field label{display:block;font-size:11px;font-weight:700;margin-bottom:6px}.field input,.field select{width:100%;border:1px solid #e2e4eb;border-radius:9px;padding:11px 12px;background:#fbfbfd;color:var(--ink);font-size:12px}.field input::placeholder{color:#a1a5ae}.audit-card .btn{width:100%;margin-top:16px}.form-note{font-size:10px;color:#9398a2;text-align:center;margin-top:10px}.result{display:none;margin-top:15px;padding:13px;border-radius:10px;background:#f2f0ff;border:1px solid #e1ddff;font-size:12px;line-height:1.6}.result.show{display:block;animation:fadein .3s ease}.result strong{display:block;margin-bottom:4px;color:#4e43ca}.result small{display:block;margin-top:7px;color:#6e7280;font-size:10px}
+    footer{padding:30px 0 25px;border-top:1px solid var(--line)}.footer-top{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;padding-bottom:28px}.footer-brand p{font-size:12px;color:#818691;max-width:300px;line-height:1.8}.footer-links{display:flex;gap:42px}.footer-col{display:grid;gap:10px;font-size:11px;color:#747a85}.footer-col strong{font-size:11px;color:#20222a;margin-bottom:3px}.footer-col a:hover{color:var(--violet)}.footer-bottom{border-top:1px solid var(--line);padding-top:18px;display:flex;justify-content:space-between;gap:20px;font-size:10px;color:#9398a2}.footer-bottom a{color:#6e7380}.disclaimer{max-width:700px;margin-top:10px;font-size:10px;color:#9a9ea7;line-height:1.7}
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:translateY(0)}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes floatin{from{opacity:0;transform:translateY(16px) rotate(.8deg)}to{opacity:1;transform:translateY(0) rotate(.8deg)}}@keyframes fadein{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+    @media(max-width:900px){.hero{padding-top:65px}.hero-grid{grid-template-columns:1fr;gap:48px}.hero-copy{max-width:620px}.demo-wrap{max-width:570px;width:100%;margin:0 auto}.how-grid{grid-template-columns:1fr;gap:38px}.how .section-head{position:static}.cta-panel{padding:42px;grid-template-columns:1fr 1fr;gap:24px}.trust-inner{align-items:flex-start;flex-direction:column;gap:15px}.trust-copy{max-width:none}.trust-words{gap:25px}}
+    @media(max-width:650px){.wrap{width:min(100% - 34px,1160px)}.announcement{font-size:10px;text-align:center}.nav{height:66px}.navlinks{display:none;position:absolute;top:65px;left:0;right:0;background:var(--paper);padding:18px 24px 24px;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.navlinks.open{display:flex}.navlinks a{padding:12px 0;border-bottom:1px solid var(--line)}.navactions .btn{display:none}.menu-toggle{display:grid;place-items:center}.hero{padding:49px 0 55px}.hero h1{font-size:clamp(43px,12vw,58px);margin-top:20px}.hero-copy{font-size:15px}.hero-buttons .btn{flex:1}.microproof{font-size:10px}.dashboard{transform:none}.floating-note{left:-5px;bottom:15px}.dash-body{padding:16px}.score-card{padding:12px}.score-ring{width:66px;height:66px}.trust-words{font-size:12px;gap:17px}.trust-words b{font-size:15px}section{padding:72px 0}.section-head{margin-bottom:30px}.benefits-grid{grid-template-columns:1fr}.benefit{min-height:0;padding:23px}.benefit-icon{margin-bottom:16px}.who-grid{grid-template-columns:1fr}.who-card{padding:20px}.cta-section{padding:12px 0 70px}.cta-panel{padding:28px 21px;grid-template-columns:1fr;border-radius:20px;gap:28px}.cta-panel h2{font-size:37px}.footer-top{flex-direction:column}.footer-links{width:100%;justify-content:space-between;gap:15px}.footer-bottom{flex-direction:column;gap:8px}.step{grid-template-columns:40px 1fr;gap:14px}}
+  </style>
+</head>
+<body>
+  <div class="announcement"><span class="dot" aria-hidden="true"></span> Local discovery is changing. Make sure your business is part of the answer. <a href="#how" style="text-decoration:underline;text-underline-offset:3px">See how →</a></div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="Super AI Base home"><span class="brandmark" aria-hidden="true">S</span>super ai base</a>
+      <nav class="navlinks" id="navlinks" aria-label="Main navigation">
+        <a href="#why">Why Super AI Base</a><a href="#how">How it works</a><a href="#businesses">Who it's for</a><a href="#faq">FAQ</a>
+      </nav>
+      <div class="navactions"><a class="btn btn-primary" href="#audit">Check my visibility <span aria-hidden="true">↗</span></a><button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navlinks"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div>
+    </div>
+  </header>
+  <main id="home">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow"><span class="spark">✳</span> The next era of local discovery</div>
+          <h1>Be the business AI <span class="gradient">recommends.</span></h1>
+          <p class="hero-copy">When someone asks ChatGPT who the best dentist nearby is, or which cleaner they can trust, will your business come up? Super AI Base helps local businesses get discovered in AI-powered search — and turn that visibility into more customers.</p>
+          <div class="hero-buttons"><a class="btn btn-primary" href="#audit">Get your free visibility check <span aria-hidden="true">↗</span></a><a class="btn btn-light" href="#how">Explore how it works <span aria-hidden="true">↓</span></a></div>
+          <div class="microproof"><div class="avatars" aria-hidden="true"><span class="avatar">D</span><span class="avatar">L</span><span class="avatar">C</span><span class="avatar">+</span></div><span>Built for local businesses. Designed for the AI era.</span></div>
+        </div>
+        <div class="demo-wrap" aria-label="Illustration of an AI visibility report">
+          <div class="glow"></div>
+          <div class="dashboard">
+            <div class="dash-top"><div class="dash-brand"><span class="tiny-mark">S</span> Visibility snapshot</div><span class="live">● Sample report</span></div>
+            <div class="dash-body">
+              <div class="dash-heading">YOUR BUSINESS</div><div class="business-title">Northside Dental Studio</div><div class="business-sub">Austin, TX · Dentist</div>
+              <div class="score-card"><div class="score-ring"><span>82</span></div><div><div class="score-label">AI visibility score</div><div class="score-desc">A sample view of signals that can shape discovery.</div><div class="delta">↗ Opportunity to improve</div></div></div>
+              <div class="mention-title"><span>Discovery signals</span><span>Illustrative examples</span></div>
+              <div class="mention"><div class="source-icon">G</div><div class="mention-text"><div class="mention-name">Business information</div><div class="mention-desc">Consistent name, address and services</div></div><span class="status">Strong</span></div>
+              <div class="mention"><div class="source-icon">✳</div><div class="mention-text"><div class="mention-name">Helpful local content</div><div class="mention-desc">Clear answers to customer questions</div></div><span class="status" style="background:#fff3e8;color:#a85e2f">Improve</span></div>
+              <div class="mention"><div class="source-icon">★</div><div class="mention-text"><div class="mention-name">Reputation signals</div><div class="mention-desc">Reviews, expertise and trust</div></div><span class="status" style="background:#fff3e8;color:#a85e2f">Improve</span></div>
+            </div>
+            <div class="dash-bottom"><span>Sample UI · Not a live audit</span><strong>Visibility → Opportunity ↗</strong></div>
+          </div>
+          <div class="floating-note"><div class="note-icon">↗</div><div><div class="note-title">Be easier to recommend</div><div class="note-sub">Clear signals. Better discovery.</div></div></div>
+        </div>
+      </div>
+    </section>
+    <div class="trustline"><div class="wrap trust-inner"><div class="trust-copy">Customers are asking AI for recommendations. Your business deserves to be in the conversation.</div><div class="trust-words" aria-label="AI and local discovery platforms"><span><b>G</b> Google</span><span>✳ ChatGPT</span><span>◉ Perplexity</span><span>⌘ Gemini</span></div></div></div>
+    <section id="why">
+      <div class="wrap">
+        <div class="section-head reveal"><div class="section-kicker">Why Super AI Base</div><h2>Great businesses shouldn't be hard to find.</h2><p>Local discovery is expanding beyond a list of blue links. We help you build the clear, credible digital presence that both people and AI-powered search experiences can understand.</p></div>
+        <div class="benefits-grid">
+          <article class="benefit reveal"><div class="benefit-icon" aria-hidden="true">⌕</div><h3>Show up where people ask</h3><p>Strengthen the information and local signals that help AI tools understand who you serve, what you do, and where you do it.</p></article>
+          <article class="benefit reveal"><div class="benefit-icon" aria-hidden="true">✳</div><h3>Turn trust into a signal</h3><p>Make your expertise, services, reputation and answers easier to verify — without fake reviews or empty marketing tricks.</p></article>
+          <article class="benefit reveal"><div class="benefit-icon" aria-hidden="true">↗</div><h3>Focus on real growth</h3><p>Prioritize practical improvements that can help more nearby customers discover you, understand your value and get in touch.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="how" id="how">
+      <div class="wrap how-grid">
+        <div class="section-head reveal"><div class="section-kicker">Simple by design</div><h2>From invisible to easier to discover.</h2><p>No need to become an SEO expert. We turn a complex, changing landscape into a clear plan for your business.</p><a href="#audit" class="btn btn-primary" style="margin-top:24px">Find your opportunities <span aria-hidden="true">↗</span></a></div>
+        <div class="steps">
+          <article class="step reveal"><div class="step-num">01</div><div><h3>Understand your local presence</h3><p>We start with your website, business details, service areas, customer questions and public reputation to identify the foundations AI systems may use to understand your business.</p><span class="step-tag">Visibility baseline</span></div></article>
+          <article class="step reveal"><div class="step-num">02</div><div><h3>Find the gaps that matter</h3><p>We look for unclear service pages, missing local context, inconsistent details, thin answers and other practical barriers to being confidently understood and recommended.</p><span class="step-tag">Opportunity map</span></div></article>
+          <article class="step reveal"><div class="step-num">03</div><div><h3>Make your business easier to understand</h3><p>Get prioritized recommendations for useful content, structured business information, local pages, reputation practices and technical foundations.</p><span class="step-tag">Action plan</span></div></article>
+          <article class="step reveal"><div class="step-num">04</div><div><h3>Measure, learn, improve</h3><p>Track the signals you can observe, keep your information fresh and refine your approach as search experiences evolve. No one can guarantee a particular AI recommendation or ranking.</p><span class="step-tag">Continuous improvement</span></div></article>
+        </div>
+      </div>
+    </section>
+    <section id="businesses">
+      <div class="wrap">
+        <div class="section-head reveal"><div class="section-kicker">Made for the real world</div><h2>Your customers are local.<br>Your opportunity is growing.</h2><p>For service businesses where trust, proximity and a clear answer can make all the difference.</p></div>
+        <div class="who-grid">
+          <article class="who-card reveal"><div class="who-icon" aria-hidden="true">＋</div><div><h3>Healthcare & wellness</h3><p>Dentists, clinics, therapists and other practices helping people find the right care. Professional and regulatory requirements still apply.</p></div></article>
+          <article class="who-card reveal"><div class="who-icon" aria-hidden="true">§</div><div><h3>Legal & professional</h3><p>Law firms, accountants and consultants who need their services, experience and locations clearly represented online.</p></div></article>
+          <article class="who-card reveal"><div class="who-icon" aria-hidden="true">⌂</div><div><h3>Home & local services</h3><p>Cleaners, plumbers, electricians, HVAC teams and contractors serving specific neighborhoods and cities.</p></div></article>
+          <article class="who-card reveal"><div class="who-icon" aria-hidden="true">✦</div><div><h3>Independent & growing</h3><p>Salons, studios, repair shops and other small businesses ready to compete on clarity, quality and customer trust.</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="cta-section" id="audit">
+      <div class="wrap">
+        <div class="cta-panel reveal">
+          <div class="cta-content"><div class="section-kicker" style="color:#b4adff">Your next customer is asking</div><h2>Let's make sure AI has the right answer.</h2><p>Start with a quick visibility check. Tell us a little about your business and get a local discovery checklist tailored to your category.</p><div class="cta-points"><span>Practical next steps</span><span>No ranking guarantees</span><span>No credit card</span></div></div>
+          <form class="audit-card" id="auditForm">
+            <h3>Get your visibility checklist</h3><p>A free starting point for your local AI presence.</p>
+            <div class="field"><label for="businessName">Business name</label><input id="businessName" name="businessName" placeholder="e.g. Northside Dental" required maxlength="100"></div>
+            <div class="field"><label for="website">Website URL (if you have one)</label><input id="website" name="website" type="url" placeholder="https://yourbusiness.com"></div>
+            <div class="field"><label for="category">Business type</label><select id="category" name="category" required><option value="">Choose your category</option><option>Dentist or healthcare</option><option>Law firm or legal services</option><option>Cleaning or home services</option><option>Professional services</option><option>Retail, beauty or wellness</option><option>Other local business</option></select></div>
+            <div class="field"><label for="city">City and state</label><input id="city" name="city" placeholder="e.g. Austin, Texas" required maxlength="100"></div>
+            <button class="btn btn-primary" type="submit">Generate my checklist <span aria-hidden="true">↗</span></button>
+            <div class="form-note">Runs in your browser. This demo does not send or store your details.</div>
+            <div class="result" id="formResult" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="faq" style="padding-top:10px">
+      <div class="wrap">
+        <div class="section-head reveal"><div class="section-kicker">Good questions</div><h2>What to know before you start.</h2></div>
+        <div class="steps">
+          <article class="step reveal"><div class="step-num">?</div><div><h3>What is AI visibility?</h3><p>It is how easily AI-powered discovery tools can understand and surface your business when someone asks for a relevant service. The answers can vary by platform, location, wording and time.</p></div></article>
+          <article class="step reveal"><div class="step-num">?</div><div><h3>Can you guarantee ChatGPT or Google will recommend me?</h3><p>No. These systems control their own results, and no legitimate provider can guarantee a specific recommendation. We focus on improving the quality and clarity of your public business information and measuring what can be observed.</p></div></article>
+          <article class="step reveal"><div class="step-num">?</div><div><h3>Do I need a website?</h3><p>A website can help, but it is not the only signal. Accurate business profiles, consistent details, trustworthy reviews and useful public information can also matter. Your best starting point depends on your business.</p></div></article>
+          <article class="step reveal"><div class="step-num">?</div><div><h3>Is this a live audit or a managed service?</h3><p>This starter website provides an example checklist in your browser. A real audit, monitoring dashboard, expert review, lead capture and ongoing managed service require a connected backend and a defined delivery process.</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand"><a class="brand" href="#home"><span class="brandmark" aria-hidden="true">S</span>super ai base</a><p>Helping local businesses become easier to discover in the age of AI.</p></div>
+        <div class="footer-links">
+          <div class="footer-col"><strong>Explore</strong><a href="#why">Why Super AI Base</a><a href="#how">How it works</a><a href="#businesses">Who it's for</a></div>
+          <div class="footer-col"><strong>Get started</strong><a href="#audit">Free visibility check</a><a href="#faq">FAQs</a><a href="mailto:hello@superaibase.com?subject=Super%20AI%20Base%20inquiry">Email us</a></div>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> Super AI Base. Built for the next era of local discovery.</span><span><a href="#faq">How it works & limitations</a></span></div>
+      <p class="disclaimer">Super AI Base is an independent service and is not affiliated with or endorsed by OpenAI, Google, Anthropic, Perplexity or other AI/search providers. Platform names are used for descriptive purposes. AI visibility and search outcomes can vary; results are not guaranteed.</p>
+    </div>
+  </footer>
+  <script>
+    (() => {
+      const menuButton = document.getElementById('menuToggle');
+      const nav = document.getElementById('navlinks');
+      menuButton.addEventListener('click', () => {
+        const open = nav.classList.toggle('open');
+        menuButton.setAttribute('aria-expanded', String(open));
+        menuButton.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+      });
+      nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+        nav.classList.remove('open');
+        menuButton.setAttribute('aria-expanded', 'false');
+        menuButton.setAttribute('aria-label', 'Open navigation menu');
+      }));
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      const observer = ('IntersectionObserver' in window) ? new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 }) : null;
+      document.querySelectorAll('.reveal').forEach(el => {
+        if (observer) observer.observe(el); else el.classList.add('visible');
+      });
+
+      const form = document.getElementById('auditForm');
+      const result = document.getElementById('formResult');
+      form.addEventListener('submit', event => {
+        event.preventDefault();
+        if (!form.reportValidity()) return;
+        const name = document.getElementById('businessName').value.trim();
+        const website = document.getElementById('website').value.trim();
+        const category = document.getElementById('category').value;
+        const city = document.getElementById('city').value.trim();
+        const siteLine = website ? `Website to review: ${website}.` : 'If you do not have a website yet, start with your public business profile.';
+        const tasks = [
+          'Make your business name, address, phone and service area consistent everywhere.',
+          'Create clear pages for each core service and the locations you genuinely serve.',
+          'Answer common customer questions with specific, useful information written by someone who knows the work.',
+          'Keep your Google Business Profile accurate and request honest reviews from real customers.',
+          'Show credible proof of expertise, credentials and policies where relevant to your industry.',
+          'Check how your business appears across search and AI tools periodically; results may differ by location and prompt.'
+        ];
+        result.innerHTML = `<strong>Your starting checklist for ${escapeHTML(name)} · ${escapeHTML(city)}</strong><div>${escapeHTML(category)} · ${escapeHTML(siteLine)}</div><ol>${tasks.map(task => `<li>${escapeHTML(task)}</li>`).join('')}</ol><small>This is a general, browser-generated checklist — not a live scan of your website or AI platforms. Nothing has been sent or saved. For regulated industries, check applicable advertising and privacy rules.</small>`;
+        result.classList.add('show');
+        result.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest'});
+      });
+      function escapeHTML(value) {
+        return String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+      }
+    })();
+  </script>
+</body>
+</html>
